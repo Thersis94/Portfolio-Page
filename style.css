@@ -21,15 +21,61 @@ h1 {
   text-align: center;
 }
 
+/*Bio section*/
+
+.biobox{
+    background-color: rgb(196, 231, 66);
+    justify-content: center;
+    display: flex;
+}
+
+.bio{
+    padding: 5% 20% 5% 20%;
+}
+
 /*Sidebar*/
 
-.sidebar{
-  
+.sidebar-left{
+  display: flex;
+  flex: 1;
   background-color: aqua;
+  flex-direction: column;
+}
+
+svg{
+    width: 100%;
+    height: auto;
 }
 
 /*Content section*/
 
+.content-span{
+    display: flex;
+}
+
+.all-projects{
+    background-color: pink;
+    display: flex;
+    flex: 5;
+
+}
+
+.sidebar-right{
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    flex-direction: column;
+}
 
 
 /*footer section*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img{
+    height: 60px;
+    width: 60px;
+}
