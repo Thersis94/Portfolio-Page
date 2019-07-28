@@ -3,6 +3,21 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header-box{
+  background-color: #88BBD6;
+  display: flex;
+  flex-direction: column;
+}
+
 body{
   margin: 0;
 }
@@ -55,13 +70,8 @@ svg:hover path{
   webkit-filter: blur(2px);
   filter: blur(2px);
 }
-
+/*------------------------------------------------------------------------------*/
 @media screen and (max-width: 800px){
-
-header {
-  display: flex;
-  flex-direction: column;
-}
 
 .header{
   font-size: 12vw;
@@ -70,20 +80,10 @@ header {
   margin: 2vw .2vw .5vw .2vw;
 }
 
-h1 {
-  text-align: center;
-}
-
 .header-info {
   font-size: 4vw;
   margin: .2vw;
   text-align: center;
-}
-
-.header-box{
-  background-color: #88BBD6;
-  display: flex;
-  flex-direction: column;
 }
 
 /*link*/
@@ -230,11 +230,6 @@ h1 {
 
 /*Header section*/
 
-header {
-  display: flex;
-  flex-direction: column;
-}
-
 .header{
   font-size: 4vw;
   color: rgb(255, 255, 255);
@@ -242,20 +237,10 @@ header {
   margin: 2vw .2vw .5vw .2vw;
 }
 
-h1 {
-  text-align: center;
-}
-
 .header-info {
   font-size: 1.5vw;
   margin: .2vw;
   text-align: center;
-}
-
-.header-box{
-  background-color: #88BBD6;
-  display: flex;
-  flex-direction: column;
 }
 
 /*link*/
