@@ -113,6 +113,7 @@ function renderMobileProjects() {
 
 
 function widthChange(mq) {
+  document.location.reload()
   chooseRender()
 }
 
