@@ -39,17 +39,17 @@ body{
 .github-link{
   color: black;
   text-align: center;
-  width: 18vw;
-  height: 4vw;
+  width: auto;
+  height: auto;
   border-radius: 10px;
   box-shadow: 6px 6px 6px grey;
   background-color: #88BBD6; 
-  font-size: 3vw;
+  font-size: 4.5vw;
   text-decoration: none;
 }
 
 .github-link:hover{
-  text-shadow: 1px 1px #e9e9e9;
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 a{
@@ -313,8 +313,8 @@ svg:hover path{
 
 .project-text{
   margin: 2vw 12vw 2vw 12vw;
-  width: 50%;
-  height: 25%;
+  width: 60%;
+  height: 30%;
 }
 
 .project-tech-used{
