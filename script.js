@@ -99,7 +99,6 @@ function renderFullProjects() {
 
 function renderMobileProjects() {
   $('.project').remove()
-  console.log("rendering mobile")
   for (let i = 0; i < projectSTORE.length; i++) {
     function renderTech() {
       let techList = []
@@ -145,11 +144,9 @@ function chooseRender() {
   const mq = window.matchMedia("(min-width: 800px)")
   mq.addListener(widthChange)
   if (mq.matches) {
-    console.log("rendering full")
     renderFullProjects()
   }
   else {
-    console.log("rendering mobile")
     renderMobileProjects()
   }
 }
