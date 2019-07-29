@@ -37,7 +37,6 @@ body{
 }
 
 .github-link{
-  padding: 1vw;
   color: black;
   text-align: center;
   width: auto;
@@ -334,6 +333,20 @@ svg:hover path{
   box-shadow: 4px 4px 4px grey;
 }
 
+.github-link{
+  padding: 1vw;
+  color: black;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px grey;
+  background-color: #88BBD6; 
+  font-size: 4.5vw;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 
 }
 /*-----------------------------------------------------------------------------------------------*/
@@ -509,7 +522,7 @@ svg:hover path{
 
 .action-call{
   text-align: center;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 }
