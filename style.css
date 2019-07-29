@@ -37,6 +37,7 @@ body{
 }
 
 .github-link{
+  padding: 1vw;
   color: black;
   text-align: center;
   width: auto;
@@ -45,6 +46,7 @@ body{
   box-shadow: 6px 6px 6px grey;
   background-color: #88BBD6; 
   font-size: 4.5vw;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -256,7 +258,7 @@ svg:hover path{
 /*Content section*/
 
 .project-description{
-  font-size: 2.5vw;
+  font-size: 3.5vw;
 }
 
 .content-span{
@@ -325,9 +327,9 @@ svg:hover path{
 .tech{
   background-color: #88bbd6;
   padding: 5px;
-  margin: 1vw;
+  margin: 1.5vw;
   border-radius: 10px;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   display: inline-block;
   box-shadow: 4px 4px 4px grey;
 }
