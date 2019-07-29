@@ -48,8 +48,15 @@ function renderFullProjects() {
         `<span class="project">
     <span class="accent-box">
     <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
+    <div class="content">
+    <div class="content-overlay"></div>
       <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
+      <div class="content-details fadeIn-bottom">
+      <h3 class="content-title">${projectSTORE[i].name}</h3>
+      <p class="content-text">Click for the live page.</p>
+      </div>
       </a>
+      </div>
       </span>
         <span class="project-text">
           <h2 class="project-name">${projectSTORE[i].name}</h2>
@@ -71,7 +78,15 @@ function renderFullProjects() {
           </span>
           <span class="accent-box">
           <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
-      <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
+          <div class="content">
+          <div class="content-overlay"></div>
+            <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
+            <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">${projectSTORE[i].name}</h3>
+            <p class="content-text">Click for the live page.</p>
+            </div>
+            </a>
+            </div>
       </a>
           </span>
   </span>`
@@ -97,7 +112,15 @@ function renderMobileProjects() {
       `<span class="project">
   <span class="accent-box">
   <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
-  <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
+  <div class="content">
+  <div class="content-overlay"></div>
+    <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
+    <div class="content-details fadeIn-bottom">
+    <h3 class="content-title">${projectSTORE[i].name}</h3>
+    <p class="content-text">Click for the live page.</p>
+    </div>
+    </a>
+    </div>
   </a>
       </span>
       <span class="project-text">

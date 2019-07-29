@@ -24,28 +24,32 @@ body{
 
 .footer{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: 'Fire Sans' , sans-serif;
   background-color: #88BBD6;
-  height: 3vw;
-  justify-content: flex-end;
-  align-items: flex-end;
+  height: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-call{
+  font-size: 1vw;
 }
 
 .github-link{
   color: black;
   text-align: center;
-  width: 14vw;
-  height: 2.5vw;
+  width: 18vw;
+  height: 4vw;
   border-radius: 10px;
   box-shadow: 6px 6px 6px grey;
   background-color: #88BBD6; 
-  font-size: 2vw;
+  font-size: 3vw;
   text-decoration: none;
 }
 
 .github-link:hover{
-  text-shadow: 1px 1px 0;
+  text-shadow: 1px 1px #e9e9e9;
 }
 
 a{
@@ -66,9 +70,98 @@ svg:hover path{
   fill: #cdcdcd;
 }
 
-.project-img:hover{
-  webkit-filter: blur(2px);
-  filter: blur(2px);
+
+/*------------------------Hover Effect-----------------------*/
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fire Sans' , sans-serif;
+  background-color: #88BBD6;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-call{
+  margin: 2vw 5vw 2vw 5vw;
+  text-align: center;
+  font-size: 3vw;
 }
 /*------------------------------------------------------------------------------*/
 @media screen and (max-width: 800px){
@@ -80,10 +173,26 @@ svg:hover path{
   margin: 2vw .2vw .5vw .2vw;
 }
 
+.header-box{
+  padding: 1vw 1vw 5vw 1vw;
+  background-color: #88BBD6;
+  display: flex;
+  flex-direction: column;
+}
+
 .header-info {
   font-size: 4vw;
   margin: .2vw;
   text-align: center;
+}
+
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: auto;
+  margin: 5%;
+  overflow: hidden;
 }
 
 /*link*/
@@ -108,7 +217,7 @@ svg:hover path{
 }
 
 .lang-bio{
-  padding: 1vw 10vw 1vw 10vw;
+  padding: 4vw 10vw 1vw 10vw;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
@@ -118,7 +227,7 @@ svg:hover path{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 0 vw 0;
+  margin: 4vw 0 4vw 0;
 }
 
 
@@ -193,11 +302,9 @@ svg:hover path{
 }
 
 .project-img{
-  box-shadow: 6px 6px 6px grey;
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: 1vw;
   width: 70vw;
   height: 39vw;
 }
@@ -307,7 +414,7 @@ svg:hover path{
 }
 
 .content-span{
-  padding: 3vw;
+  padding: 5vw 15vw 5vw 15vw;
   background-color: #cdcdcd;
     display: flex;
 }
@@ -326,6 +433,7 @@ svg:hover path{
 }
 
 .project{
+  margin: 3vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -347,14 +455,12 @@ svg:hover path{
 }
 
 .project-img{
-  box-shadow: 6px 6px 6px grey;
-  margin: 1vw;
   width: 26vw;
   height: 15vw;
 }
 
 .project-text{
-  margin: 2vw;
+  margin: 1vw 1vw 1vw 3vw;
   width: 50%;
   height: 25%;
 }
@@ -373,4 +479,32 @@ svg:hover path{
   box-shadow: 4px 4px 4px grey;
 }
 
+.github-link{
+  color: black;
+  text-align: center;
+  width: 14vw;
+  height: 2.5vw;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px grey;
+  background-color: #88BBD6; 
+  font-size: 2vw;
+  text-decoration: none;
 }
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fire Sans' , sans-serif;
+  background-color: #88BBD6;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-call{
+  text-align: center;
+  font-size: 2em;
+}
+
+}
+
