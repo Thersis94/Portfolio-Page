@@ -172,6 +172,7 @@ svg:hover path{
 @media screen and (max-width: 800px){
 
 .header{
+  text-align: center;
   font-size: 12vw;
   color: rgb(255, 255, 255);
   font-family: 'Fira Sans' , sans-serif;
@@ -365,6 +366,7 @@ svg:hover path{
 /*Header section*/
 
 .header{
+  text-align: center;
   font-size: 4vw;
   color: rgb(255, 255, 255);
   font-family: 'Fira Sans' , sans-serif;
