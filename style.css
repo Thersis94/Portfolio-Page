@@ -1,5 +1,5 @@
 * {
-  font-family: "Nanum Gothic";
+  font-family: "Merriweather";
   box-sizing: border-box;
 }
 
@@ -20,6 +20,10 @@ h1 {
 
 body{
   margin: 0;
+}
+
+.bio-paragraph{
+  margin: .5vw 0 .5vw 0;
 }
 
 .footer{
@@ -68,7 +72,7 @@ a{
 }
 
 svg:hover path{
-  fill: #cdcdcd;
+  fill: purple;
 }
 
 
@@ -251,7 +255,6 @@ svg:hover path{
 .bio{
   font-size: 3.5vw;
   line-height: 1.4em;
-  margin: 1vw 1vw 1vw 1vw;
 }
 
 /*Content section*/
@@ -347,6 +350,13 @@ svg:hover path{
   text-decoration: none;
 }
 
+.footer-links{
+  text-align: center;
+}
+
+.contact-svg-footer{
+  height: 10vw;
+}
 
 }
 /*-----------------------------------------------------------------------------------------------*/
@@ -370,12 +380,15 @@ svg:hover path{
 /*link*/
 
 .links{
-  margin: 1vw .1vw 1vw .1vw;
-  text-align: center;
+  width: 95%;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  position: fixed;
+  margin: 1vw 1vw 1vw 1vw;
 }
 
 .contact-img{
-  height: 5vw;
 }
 /*Bio/icon section*/
 .lang-bio-background-span{
@@ -390,7 +403,7 @@ svg:hover path{
 .lang-icons{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 20%;
 }
 
 .lang-svg{
@@ -498,6 +511,7 @@ svg:hover path{
 }
 
 .github-link{
+  font-family: "Merriweather";
   margin: 1vw;
   color: black;
   text-align: center;
@@ -524,6 +538,7 @@ svg:hover path{
   text-align: center;
   font-size: 2vw;
 }
+
 
 }
 
