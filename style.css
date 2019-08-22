@@ -72,7 +72,7 @@ a{
 }
 
 svg:hover path{
-  fill: purple;
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(104%);
 }
 
 
