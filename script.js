@@ -8,11 +8,11 @@ const projectSTORE = [
     tech: ['HTML', 'CSS', 'JS'],
   },
   {
-    name: "90's Quiz App",
-    img: "img/QuizApp.png",
-    liveLink: "https://thersis94.github.io/quizapp/",
-    github: "https://github.com/Thersis94/quizapp",
-    description: "This is a simple quiz app that I created to test your 90's music knowledge!",
+    name: "Lazy Liquor Library",
+    img: "https://raw.githubusercontent.com/Thersis94/Lazy-Liquor-Library/master/ScreenShot.PNG",
+    liveLink: "https://thersis94.github.io/Lazy-Liquor-Library/",
+    github: "https://github.com/Thersis94/Lazy-Liquor-Library",
+    description: "An app I created to search for interesting cocktails!",
     tech: ['HTML', 'CSS', 'JS'],
   },
   {
