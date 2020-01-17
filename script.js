@@ -5,7 +5,7 @@ const projectSTORE = [
     liveLink: "https://aiaudio.now.sh/home",
     github: "https://github.com/Thersis94/AudioMasteringClient",
     description: "An App that allows you to upload audio files and returns mastered audio!",
-    tech: ['HTML', 'CSS', 'JS', 'React', 'NodeJS', 'Matlab']
+    tech: ['HTML', 'CSS', 'JS', 'React', 'NodeJS']
   },
   {
     name: "Lazy Liquor Library",

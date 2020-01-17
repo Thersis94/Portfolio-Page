@@ -171,6 +171,12 @@ svg:hover path{
 /*------------------------------------------------------------------------------*/
 @media screen and (max-width: 800px){
 
+.photo-of-self {
+  height: 48vw;
+  width: 40vw;
+  margin: AUTO;
+}
+
 .header{
   text-align: center;
   font-size: 12vw;
@@ -223,6 +229,11 @@ svg:hover path{
   background-color: #e9e9e9;
 }
 
+.photo-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .lang-bio{
   padding: 4vw 10vw 1vw 10vw;
   display: flex;
@@ -232,7 +243,7 @@ svg:hover path{
 
 .lang-icons{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin: 4vw 0 4vw 0;
 }
@@ -365,6 +376,25 @@ svg:hover path{
 
 /*Header section*/
 
+.photo-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 5vw;
+}
+
+.photo-of-self {
+  height: 26vw;
+  width: 20vw;
+  margin: AUTO;
+}
+
 .header{
   text-align: center;
   font-size: 4vw;
@@ -402,12 +432,7 @@ svg:hover path{
   display: flex;
 }
 
-.lang-icons{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  width: 20%;
-}
+
 
 .lang-svg{
   width: 100%;
@@ -416,12 +441,14 @@ svg:hover path{
 
 .lang-icons-top{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .lang-icons-bottom{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .bio{
