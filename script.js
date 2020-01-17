@@ -1,11 +1,11 @@
 const projectSTORE = [
   {
     name: "AI Audio",
-    img: "img/QuizApp.png",
-    liveLink: "https://thersis94.github.io/quizapp/",
-    github: "https://github.com/Thersis94/quizapp",
-    description: "This is a simple quiz app that I created to test your 90's music knowledge!",
-    tech: ['HTML', 'CSS', 'JS'],
+    img: "https://raw.githubusercontent.com/Thersis94/Portfolio-Page/master/img/AIAudioScreenShot.PNG",
+    liveLink: "https://aiaudio.now.sh/home",
+    github: "https://github.com/Thersis94/AudioMasteringClient",
+    description: "An App that allows you to upload audio files and returns mastered audio!",
+    tech: ['HTML', 'CSS', 'JS', 'React', 'NodeJS', 'Matlab']
   },
   {
     name: "Lazy Liquor Library",
@@ -20,15 +20,7 @@ const projectSTORE = [
     img: "img/QuizApp.png",
     liveLink: "https://thersis94.github.io/quizapp/",
     github: "https://github.com/Thersis94/quizapp",
-    description: "This is a simple quiz app that I created to test your 90's music knowledge!",
-    tech: ['HTML', 'CSS', 'JS'],
-  },
-  {
-    name: "90's Quiz App",
-    img: "img/QuizApp.png",
-    liveLink: "https://thersis94.github.io/quizapp/",
-    github: "https://github.com/Thersis94/quizapp",
-    description: "This is a simple quiz app that I created to test your 90's music knowledge!",
+    description: "My first Webapp! This is a simple quiz app that I created to test your 90's music knowledge!",
     tech: ['HTML', 'CSS', 'JS'],
   },
 ]
