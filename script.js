@@ -1,6 +1,6 @@
 const projectSTORE = [
   {
-    name: "90's Quiz App",
+    name: "AI Audio",
     img: "img/QuizApp.png",
     liveLink: "https://thersis94.github.io/quizapp/",
     github: "https://github.com/Thersis94/quizapp",
