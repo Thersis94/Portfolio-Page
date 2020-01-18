@@ -2,7 +2,7 @@ const projectSTORE = [
   {
     name: "AI Audio",
     img: "https://raw.githubusercontent.com/Thersis94/Portfolio-Page/master/img/AIAudioScreenShot.PNG",
-    liveLink: "https://aiaudio.now.sh/home",
+    liveLink: "https://aiaudio.now.sh",
     github: "https://github.com/Thersis94/AudioMasteringClient",
     description: "An App that allows you to upload audio files and returns mastered audio!",
     tech: ['HTML', 'CSS', 'JS', 'React', 'NodeJS']
