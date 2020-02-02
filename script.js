@@ -39,7 +39,7 @@ function renderFullProjects() {
       $(".all-projects").append(
         `<span class="project">
     <span class="accent-box">
-    <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
+    <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}" target="_blank">
     <div class="content">
     <div class="content-overlay"></div>
       <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
@@ -53,7 +53,7 @@ function renderFullProjects() {
         <span class="project-text">
           <h2 class="project-name">${projectSTORE[i].name}</h2>
           <p class="project-description">${projectSTORE[i].description}</p>
-          <a alt="Link to the ${projectSTORE[i].name} Github repository."  href="${projectSTORE[i].github}"><p class="github-link">Github Link</p></a>
+          <a alt="Link to the ${projectSTORE[i].name} Github repository."  href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
           <span class="project-tech-used">${renderTech()}</span>
         </span>
 </span>`
@@ -65,11 +65,11 @@ function renderFullProjects() {
           <span class="project-text">
             <h2 class="project-name">${projectSTORE[i].name}</h2>
             <p class="project-description">${projectSTORE[i].description}</p>
-            <a alt="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}"><p class="github-link">Github Link</p></a>
+            <a alt="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
             <p class="project-tech-used">${renderTech()}</p>
           </span>
           <span class="accent-box">
-          <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
+          <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}" target="_blank">
           <div class="content">
           <div class="content-overlay"></div>
             <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
