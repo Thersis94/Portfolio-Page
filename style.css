@@ -12,7 +12,7 @@ header {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 
 .header-box {
@@ -57,7 +57,7 @@ body {
 }
 
 .github-link:hover {
-  text-shadow: 1px 1px rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 a {
@@ -150,7 +150,7 @@ svg:hover path {
 .content-details p {
   color: #fff;
   font-size: calc(16px);
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 
 .fadeIn-bottom {
