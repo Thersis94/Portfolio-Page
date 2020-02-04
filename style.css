@@ -12,11 +12,10 @@ header {
 
 h1 {
   text-align: center;
-  text-shadow: 3px 3px black;
 }
 
 .header-box {
-  background-color: rgb(108, 175, 211);
+  background-color: #427D9F;
   display: flex;
   flex-direction: column;
 }
@@ -34,13 +33,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Fire Sans', sans-serif;
-  background-color: rgb(108, 175, 211);
+  background-color: #427D9F;
   height: 5vw;
   justify-content: center;
   align-items: center;
 }
 
 .action-call {
+  color: white;
   font-size: calc(16px + .5vw);
 }
 
@@ -185,6 +185,7 @@ svg:hover path {
   text-align: center;
   font-size: calc(16px + 8vw);
   color: rgb(255, 255, 255);
+  text-shadow: black 1px 1px;
   font-family: 'Fira Sans', sans-serif;
   margin: 2vw .2vw .5vw .2vw;
 }
@@ -196,6 +197,8 @@ svg:hover path {
 }
 
 .header-info {
+  color: white;
+  text-shadow: black 1px 1px;
   font-size: calc(16px + 1vw);
   margin: .2vw;
   text-align: center;
@@ -403,6 +406,7 @@ svg:hover path {
     margin: 2vw .2vw .5vw .2vw;
   }
   .header-info {
+    color: white;
     font-size: calc(16px + 1vw);
     margin: .2vw;
     text-align: center;
@@ -545,6 +549,7 @@ svg:hover path {
     font-size: calc(16px + 1.2vw);
   }
   .icons8-link {
+    color: white;
     margin : 2vw 0 0 0;
     width: 100%;
     text-align: right;
