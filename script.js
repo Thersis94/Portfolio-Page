@@ -5,7 +5,7 @@ const projectSTORE = [
     liveLink: "https://aiaudio.now.sh",
     github: "https://github.com/Thersis94/AudioMasteringClient",
     description: "An App that allows you to upload audio files and returns mastered audio!",
-    tech: ['HTML', 'CSS', 'JS', 'React', 'NodeJS']
+    tech: ['HTML', 'CSS', 'React', 'NodeJS']
   },
   {
     name: "Lazy Liquor Library",
@@ -39,7 +39,7 @@ function renderFullProjects() {
       $(".all-projects").append(
         `<span class="project">
     <span class="accent-box">
-    <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}" target="_blank">
+    <a href="${projectSTORE[i].liveLink}" target="_blank">
     <div class="content">
     <div class="content-overlay"></div>
       <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
@@ -65,7 +65,7 @@ function renderFullProjects() {
           <span class="project-text">
             <h2 class="project-name">${projectSTORE[i].name}</h2>
             <p class="project-description">${projectSTORE[i].description}</p>
-            <a alt="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
+            <a href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
             <p class="project-tech-used">${renderTech()}</p>
           </span>
           <span class="accent-box">
@@ -235,7 +235,7 @@ function widthChange(mq) {
 
 
 function chooseRender() {
-  const mq = window.matchMedia("(min-width: 800px)")
+  const mq = window.matchMedia("(min-width: 1000px)")
   mq.addListener(widthChange)
   if (mq.matches) {
     renderFullProjects()
