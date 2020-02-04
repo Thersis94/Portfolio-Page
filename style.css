@@ -45,13 +45,13 @@ body {
 }
 
 .github-link {
-  color: black;
+  color: white;
   text-align: center;
   width: auto;
   height: auto;
   border-radius: 10px;
   box-shadow: 6px 6px 6px grey;
-  background-color: #88BBD6;
+  background-color: #427D9F;
   font-size: calc(16px + 2vw);
   font-weight: bold;
   text-decoration: none;
@@ -321,7 +321,7 @@ svg:hover path {
   padding: 2vw;
   width: 80%;
   height: auto;
-  background-color: rgb(108, 175, 211);
+  background-color: #427D9F;
 }
 
 .project-img {
@@ -345,7 +345,8 @@ svg:hover path {
 }
 
 .tech {
-  background-color: #88bbd6;
+  color: white;
+  background-color: #427D9F;
   padding: 5px;
   margin: 1.5vw 2.5vw 1.5vw 0;
   border-radius: 10px;
@@ -355,13 +356,11 @@ svg:hover path {
 
 .github-link {
   padding: .5vw;
-  color: black;
   text-align: center;
   width: auto;
   height: auto;
   border-radius: 10px;
   box-shadow: 6px 6px 6px grey;
-  background-color: #88BBD6;
   font-size: calc(16px + 1vw);
   font-weight: bold;
   text-decoration: none;
@@ -513,7 +512,6 @@ svg:hover path {
     padding: 0;
   }
   .tech {
-    background-color: #88bbd6;
     padding: 5px;
     margin: 1vw;
     border-radius: 10px;
@@ -525,14 +523,12 @@ svg:hover path {
     font-family: "Merriweather";
     margin: 1vw;
     padding: 0.2vw;
-    color: black;
     text-align: center;
     justify-content: center;
     width: 14vw;
     height: auto;
     border-radius: 10px;
     box-shadow: 6px 6px 6px grey;
-    background-color: #88BBD6;
     font-size: calc(16px + .8vw);
     text-decoration: none;
   }
