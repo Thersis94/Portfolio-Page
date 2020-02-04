@@ -7,10 +7,12 @@
 header {
   display: flex;
   flex-direction: column;
+ 
 }
 
 h1 {
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 .header-box {
@@ -148,6 +150,7 @@ svg:hover path {
 .content-details p {
   color: #fff;
   font-size: calc(16px);
+  text-shadow: 2px 2px black;
 }
 
 .fadeIn-bottom {
