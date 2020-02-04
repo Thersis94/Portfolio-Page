@@ -279,7 +279,7 @@ svg:hover path {
 }
 
 .content-span {
-  padding: 3vw 3vw 10vw 3vw;
+  padding: 3vw 3vw 20vw 3vw;
   background-color: #cdcdcd;
   display: flex;
 }
@@ -339,6 +339,7 @@ svg:hover path {
 .project-tech-used {
   display: flex;
   padding: 1vw 1vw 1vw 0;
+  flex-wrap: wrap;
 }
 
 .tech {
@@ -347,7 +348,6 @@ svg:hover path {
   margin: 1.5vw 2.5vw 1.5vw 0;
   border-radius: 10px;
   font-size: calc(16px + .5em);
-  display: inline-block;
   box-shadow: 4px 4px 4px grey;
 }
 
@@ -458,7 +458,7 @@ svg:hover path {
     font-size: calc(16px + 1vw);
   }
   .content-span {
-    padding: 5vw;
+    padding: 4vw;
     background-color: #cdcdcd;
     display: flex;
   }
@@ -489,7 +489,7 @@ svg:hover path {
     align-content: center;
     padding: 2vw;
     margin: 2vw;
-    height: 50%;
+    height: 90%;
     width: 60%;
     background-color: #99d3df;
   }
