@@ -12,72 +12,72 @@ h1 {
   text-align: center;
 }
 
-.header-box{
+.header-box {
   background-color: #88BBD6;
   display: flex;
   flex-direction: column;
 }
 
-body{
+body {
   margin: 0;
 }
 
-.bio-paragraph{
+.bio-paragraph {
   margin: .5vw 0 .5vw 0;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
-  font-family: 'Fire Sans' , sans-serif;
+  font-family: 'Fire Sans', sans-serif;
   background-color: #88BBD6;
   height: 5vw;
   justify-content: center;
   align-items: center;
 }
 
-.action-call{
+.action-call {
   font-size: 1vw;
 }
 
-.github-link{
+.github-link {
   color: black;
   text-align: center;
   width: auto;
   height: auto;
   border-radius: 10px;
   box-shadow: 6px 6px 6px grey;
-  background-color: #88BBD6; 
+  background-color: #88BBD6;
   font-size: 4.5vw;
   font-weight: bold;
   text-decoration: none;
 }
 
-.github-link:hover{
+.github-link:hover {
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.lang-svg{
+.lang-svg {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
-.contact-svg{
+.contact-svg {
   width: 6%;
   height: auto;
 }
 
-svg:hover path{
+svg:hover path {
   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(104%);
 }
 
-
 /*------------------------Hover Effect-----------------------*/
-.container .title{
+
+.container .title {
   color: #1a1a1a;
   text-align: center;
 }
@@ -91,7 +91,7 @@ svg:hover path{
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -105,11 +105,11 @@ svg:hover path{
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content:hover .content-overlay {
   opacity: 1;
 }
 
-.content-image{
+.content-image {
   width: 100%;
 }
 
@@ -130,13 +130,13 @@ svg:hover path{
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-.content-details h3{
+.content-details h3 {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -144,32 +144,32 @@ svg:hover path{
   text-transform: uppercase;
 }
 
-.content-details p{
+.content-details p {
   color: #fff;
   font-size: 0.8em;
 }
 
-.fadeIn-bottom{
+.fadeIn-bottom {
   top: 80%;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
-  font-family: 'Fire Sans' , sans-serif;
+  font-family: 'Fire Sans', sans-serif;
   background-color: #88BBD6;
   height: auto;
   justify-content: center;
   align-items: center;
 }
 
-.action-call{
+.action-call {
   margin: 2vw 5vw 2vw 5vw;
   text-align: center;
   font-size: 3vw;
 }
+
 /*------------------------------------------------------------------------------*/
-@media screen and (max-width: 800px){
 
 .photo-of-self {
   height: 48vw;
@@ -177,15 +177,15 @@ svg:hover path{
   margin: AUTO;
 }
 
-.header{
+.header {
   text-align: center;
   font-size: 12vw;
   color: rgb(255, 255, 255);
-  font-family: 'Fira Sans' , sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   margin: 2vw .2vw .5vw .2vw;
 }
 
-.header-box{
+.header-box {
   padding: 1vw 1vw 1vw 1vw;
   background-color: #88BBD6;
   display: flex;
@@ -198,7 +198,6 @@ svg:hover path{
   text-align: center;
 }
 
-
 .content {
   position: relative;
   width: 100%;
@@ -209,23 +208,24 @@ svg:hover path{
 
 /*link*/
 
-.links{
+.links {
   margin: 4vw .1vw 4vw .1vw;
   text-align: center;
 }
 
-.contact-img{
+.contact-img {
   height: 15vw;
 }
 
-.contact-svg{
+.contact-svg {
   margin: 0 .5vw 0 .5vw;
   width: 12%;
   height: auto;
 }
 
 /*Bio/icon section*/
-.lang-bio-background-span{
+
+.lang-bio-background-span {
   background-color: #e9e9e9;
 }
 
@@ -234,81 +234,78 @@ svg:hover path{
   flex-direction: row;
 }
 
-.lang-bio{
+.lang-bio {
   padding: 4vw 10vw 1vw 10vw;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
 }
 
-.lang-icons{
+.lang-icons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 4vw 0 4vw 0;
 }
 
-
-.lang-icons-top{
+.lang-icons-top {
   display: flex;
   flex-direction: row;
 }
 
-.lang-icons-bottom{
+.lang-icons-bottom {
   display: flex;
   flex-direction: row;
 }
 
-.lang-svg{
+.lang-svg {
   width: 100%;
   height: auto;
 }
 
-.bio{
+.bio {
   font-size: 3.5vw;
   line-height: 1.4em;
 }
 
 /*Content section*/
 
-.project-description{
+.project-description {
   font-size: 3.5vw;
 }
 
-.content-span{
+.content-span {
   padding: 3vw;
   background-color: #cdcdcd;
-    display: flex;
+  display: flex;
 }
 
-.all-projects{
-    display: flex;
-    flex-direction: column;
-    flex: 5;
-
+.all-projects {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
 }
 
-.sidebar-right{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+.sidebar-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
-.project{
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 
-.project-name{
+.project-name {
   margin: 0;
   font-size: 4vw;
   font-family: "Fira Sans"
-
 }
 
-.accent-box{
+.accent-box {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -319,7 +316,7 @@ svg:hover path{
   background-color: #99d3df;
 }
 
-.project-img{
+.project-img {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -327,18 +324,18 @@ svg:hover path{
   height: 39vw;
 }
 
-.project-text{
+.project-text {
   margin: 2vw 12vw 2vw 12vw;
   width: 60%;
   height: 30%;
 }
 
-.project-tech-used{
+.project-tech-used {
   margin: 10px 0 30px 0;
   display: flex;
 }
 
-.tech{
+.tech {
   background-color: #88bbd6;
   padding: 5px;
   margin: 1.5vw;
@@ -348,7 +345,7 @@ svg:hover path{
   box-shadow: 4px 4px 4px grey;
 }
 
-.github-link{
+.github-link {
   padding: 1vw;
   color: black;
   text-align: center;
@@ -356,219 +353,206 @@ svg:hover path{
   height: auto;
   border-radius: 10px;
   box-shadow: 6px 6px 6px grey;
-  background-color: #88BBD6; 
+  background-color: #88BBD6;
   font-size: 4.5vw;
   font-weight: bold;
   text-decoration: none;
 }
 
-.footer-links{
+.footer-links {
   text-align: center;
 }
 
-.contact-svg-footer{
+.contact-svg-footer {
   height: 10vw;
 }
 
-}
-/*-----------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 800px){
+/*--------------------------------------------------------------------------*/
 
-/*Header section*/
-
-.photo-icon-wrapper {
-  display: flex;
-  flex-direction: row;
-}
-
-.lang-icons{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  width: 5vw;
-}
-
-.photo-of-self {
-  height: 26vw;
-  width: 20vw;
-  margin: AUTO;
-}
-
-.header{
-  text-align: center;
-  font-size: 4vw;
-  color: rgb(255, 255, 255);
-  font-family: 'Fira Sans' , sans-serif;
-  margin: 2vw .2vw .5vw .2vw;
-}
-
-.header-info {
-  font-size: 1.5vw;
-  margin: .2vw;
-  text-align: center;
-}
-
-/*link*/
-
-.links{
-  width: 95%;
-  display: flex;
-  text-align: right;
-  flex-direction: column;
-  position: fixed;
-  margin: 1vw 1vw 1vw 1vw;
-}
-
-.contact-img{
-}
-/*Bio/icon section*/
-.lang-bio-background-span{
-  background-color: #e9e9e9;
-}
-
-.lang-bio{
-  padding: 1vw 10vw 1vw 10vw;
-  display: flex;
-}
-
-
-
-.lang-svg{
-  width: 100%;
-  height: auto;
-}
-
-.lang-icons-top{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.lang-icons-bottom{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.bio{
-  font-size: 1.2vw;
-  line-height: 1.4em;
-  margin: 1vw 3vw 1vw 3vw;
-}
-
-/*Sidebar*/
-
-.sidebar-left{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-
-/*Content section*/
-
-.project-description{
-  font-size:1.5vw;
-}
-
-.content-span{
-  padding: 5vw 15vw 5vw 15vw;
-  background-color: #cdcdcd;
+@media screen and (min-width: 800px) {
+  /*Header section*/
+  .photo-icon-wrapper {
     display: flex;
-}
-
-.all-projects{
+    flex-direction: row;
+  }
+  .lang-icons {
     display: flex;
     flex-direction: column;
-    flex: 5;
-
-}
-
-.sidebar-right{
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 5vw;
+  }
+  .photo-of-self {
+    height: 26vw;
+    width: 20vw;
+    margin: AUTO;
+  }
+  .header {
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Sans', sans-serif;
+    margin: 2vw .2vw .5vw .2vw;
+  }
+  .header-info {
+    font-size: 1.5vw;
+    margin: .2vw;
+    text-align: center;
+  }
+  .header-box {
+    flex-direction: column;
+    padding: 0 0 3vw 0;
+  }
+  /*link*/
+  .links {
+    float: left;
+    width: 10%;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    position: fixed;
+    margin: 1vw 1vw 1vw 1vw;
+  }
+  .contact-link {
+    width: 6vw;
+    height: 6vw;
+    text-align: left;
+  }
+  /*Bio/icon section*/
+  .lang-bio-background-span {
+    background-color: #e9e9e9;
+  }
+  .lang-bio {
+    padding: 1vw 10vw 1vw 10vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .lang-svg {
+    width: 100%;
+    height: auto;
+  }
+  .lang-icons-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .lang-icons-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .bio {
+    font-size: 1.2vw;
+    line-height: 1.4em;
+    margin: 1vw 3vw 1vw 3vw;
+  }
+  /*Sidebar*/
+  .sidebar-left {
     display: flex;
     flex: 1;
     flex-direction: column;
+    justify-content: space-around;
+  }
+  .contact-svg {
+    width: 100%;
+    height: auto;
+  }
+  /*Content section*/
+  .project-description {
+    font-size: 1.5vw;
+  }
+  .content-span {
+    padding: 5vw 12vw 5vw 12vw;
+    background-color: #cdcdcd;
+    display: flex;
+  }
+  .all-projects {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .sidebar-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .project {
+    margin: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .project-name {
+    margin: 2vw 0 0 0;
+    font-size: 2vw;
+    font-family: "Fira Sans"
+  }
+  .accent-box {
+    justify-content: center;
+    align-content: center;
+    padding: 2vw;
+    margin: 2vw;
+    height: 20vw;
+    width: 26vw;
+    background-color: #99d3df;
+  }
+  .content-overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .project-img {
+    width: 100%;
+    height: 100%;
+  }
+  .project-text {
+    margin: 1vw 1vw 1vw 3vw;
+    width: 50%;
+    height: 25%;
+  }
+  .project-tech-used {
+    display: flex;
+  }
+  .tech {
+    background-color: #88bbd6;
+    padding: 5px;
+    margin: 1vw;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    display: inline-block;
+    box-shadow: 4px 4px 4px grey;
+  }
+  .github-link {
+    font-family: "Merriweather";
+    margin: 1vw;
+    padding: 0.2vw;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    width: 14vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px grey;
+    background-color: #88BBD6;
+    font-size: 1vw;
+    text-decoration: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fire Sans', sans-serif;
+    background-color: #88BBD6;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .action-call {
+    text-align: center;
+    font-size: 2vw;
+  }
+  .icons8-link {
+    margin : 2vw 0 0 0;
+    width: 100%;
+    text-align: right;
+    font-size: .8em;
+  }
 }
-
-.project{
-  margin: 3vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.project-name{
-  margin: 0;
-  font-size: 2vw;
-  font-family: "Fira Sans"
-
-}
-
-.accent-box{
-  justify-content: center;
-  align-content: center;
-  padding: 2vw;
-  height: auto;
-  width: auto;
-  background-color: #99d3df;
-}
-
-.project-img{
-  width: 26vw;
-  height: 15vw;
-}
-
-.project-text{
-  margin: 1vw 1vw 1vw 3vw;
-  width: 50%;
-  height: 25%;
-}
-
-.project-tech-used{
-  display: flex;
-}
-
-.tech{
-  background-color: #88bbd6;
-  padding: 5px;
-  margin: 1vw;
-  border-radius: 10px;
-  font-size: 1.5vw;
-  display: inline-block;
-  box-shadow: 4px 4px 4px grey;
-}
-
-.github-link{
-  font-family: "Merriweather";
-  margin: 1vw;
-  color: black;
-  text-align: center;
-  width: 14vw;
-  height: 2.5vw;
-  border-radius: 10px;
-  box-shadow: 6px 6px 6px grey;
-  background-color: #88BBD6; 
-  font-size: 2vw;
-  text-decoration: none;
-}
-
-.footer{
-  display: flex;
-  flex-direction: column;
-  font-family: 'Fire Sans' , sans-serif;
-  background-color: #88BBD6;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.action-call{
-  text-align: center;
-  font-size: 2vw;
-}
-
-
-}
-
