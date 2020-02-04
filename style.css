@@ -16,7 +16,7 @@ h1 {
 }
 
 .header-box {
-  background-color: #88BBD6;
+  background-color: rgb(108, 175, 211);
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Fire Sans', sans-serif;
-  background-color: #88BBD6;
+  background-color: rgb(108, 175, 211);
   height: 5vw;
   justify-content: center;
   align-items: center;
@@ -161,7 +161,6 @@ svg:hover path {
   display: flex;
   flex-direction: column;
   font-family: 'Fire Sans', sans-serif;
-  background-color: #88BBD6;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -191,7 +190,6 @@ svg:hover path {
 
 .header-box {
   padding: 1vw 1vw 1vw 1vw;
-  background-color: #88BBD6;
   display: flex;
   flex-direction: column;
 }
@@ -319,7 +317,7 @@ svg:hover path {
   padding: 2vw;
   width: 80%;
   height: auto;
-  background-color: #99d3df;
+  background-color: rgb(108, 175, 211);
 }
 
 .project-img {
@@ -491,7 +489,6 @@ svg:hover path {
     margin: 2vw;
     height: 90%;
     width: 60%;
-    background-color: #99d3df;
   }
   .content-overlay {
     width: 100%;
@@ -538,7 +535,6 @@ svg:hover path {
     display: flex;
     flex-direction: column;
     font-family: 'Fire Sans', sans-serif;
-    background-color: #88BBD6;
     height: auto;
     justify-content: center;
     align-items: center;
