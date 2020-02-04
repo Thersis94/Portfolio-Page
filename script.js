@@ -39,7 +39,7 @@ function renderFullProjects() {
       $(".all-projects").append(
         `<span class="project">
     <span class="accent-box">
-    <a href="${projectSTORE[i].liveLink}" target="_blank">
+    <a aria-label="${projectSTORE[i].name}" href="${projectSTORE[i].liveLink}" target="_blank">
     <div class="content">
     <div class="content-overlay"></div>
       <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
@@ -53,7 +53,7 @@ function renderFullProjects() {
         <span class="project-text">
           <h2 class="project-name">${projectSTORE[i].name}</h2>
           <p class="project-description">${projectSTORE[i].description}</p>
-          <a alt="Link to the ${projectSTORE[i].name} Github repository."  href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
+          <a aria-label="Link to the ${projectSTORE[i].name} Github repository."  href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
           <span class="project-tech-used">${renderTech()}</span>
         </span>
 </span>`
@@ -65,11 +65,11 @@ function renderFullProjects() {
           <span class="project-text">
             <h2 class="project-name">${projectSTORE[i].name}</h2>
             <p class="project-description">${projectSTORE[i].description}</p>
-            <a href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
+            <a aria-label="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
             <p class="project-tech-used">${renderTech()}</p>
           </span>
           <span class="accent-box">
-          <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}" target="_blank">
+          <a aria-label="${projectSTORE[i].name}" alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}" target="_blank">
           <div class="content">
           <div class="content-overlay"></div>
             <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
@@ -102,7 +102,7 @@ function renderMobileProjects() {
     $(".all-projects").append(
       `<span class="project">
   <span class="accent-box">
-  <a alt="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
+  <a aria-label="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
   <div class="content">
   <div class="content-overlay"></div>
     <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
@@ -117,13 +117,13 @@ function renderMobileProjects() {
       <span class="project-text">
         <h2 class="project-name">${projectSTORE[i].name}</h2>
         <p class="project-description">${projectSTORE[i].description}</p>
-        <a alt="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}"><p class="github-link">Github Link</p></a>
+        <a aria-label="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}"><p class="github-link">Github Link</p></a>
         <span class="project-tech-used">${renderTech()}</span>
       </span>
       </span>`)
   }
   $(".footer-links").append(
-  `<a target="_blank" alt="link to Justin Jeffrey's email." href="mailto:J.C.Jeffrey1994@gmail.com">
+  `<a  target="_blank" aria-label="link to Justin Jeffrey's email." href="mailto:J.C.Jeffrey1994@gmail.com">
                 <svg class="contact-svg-footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 172 172" style=" fill:#000000;">
                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                         stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -195,7 +195,7 @@ function renderMobileProjects() {
                     </g>
                 </svg>
             </a>
-            <a target="_blank" alt="link to Justin Jeffrey's Linkedin page."
+            <a target="_blank" aria-label="link to Justin Jeffrey's Linkedin page."
                 href="https://www.linkedin.com/in/justin-jeffrey-285697a5/">
                 <svg class="contact-svg-footer" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24">
@@ -203,7 +203,7 @@ function renderMobileProjects() {
                         d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
                 </svg>
             </a>
-            <a target="_blank" alt="link to Justin Jeffrey's Github repositories."
+            <a target="_blank" aria-label="link to Justin Jeffrey's Github repositories."
                 href="https://github.com/Thersis94?tab=repositories">
                 <svg class="contact-svg-footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     viewBox="0 0 172 172" style=" fill:#000000;">
