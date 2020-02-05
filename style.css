@@ -378,6 +378,10 @@ svg:hover path {
   padding: 0;
 }
 
+.icons8 {
+  color: white;
+}
+
 /*--------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1000px) {
@@ -545,7 +549,6 @@ svg:hover path {
     font-size: calc(16px + 1.2vw);
   }
   .icons8-link {
-    color: white;
     margin : 2vw 0 0 0;
     width: 100%;
     text-align: right;
