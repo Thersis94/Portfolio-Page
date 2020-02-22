@@ -61,7 +61,7 @@ function renderFullProjects() {
         <span class="project-text">
           <h2 class="project-name">${projectSTORE[i].name}</h2>
           <p class="project-description">${projectSTORE[i].description}</p>
-          <a aria-label="Link to the ${projectSTORE[i].name} Github repository."  href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
+          <a href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
           <span class="project-tech-used">${renderTech()}</span>
         </span>
 </span>`
@@ -73,7 +73,7 @@ function renderFullProjects() {
           <span class="project-text">
             <h2 class="project-name">${projectSTORE[i].name}</h2>
             <p class="project-description">${projectSTORE[i].description}</p>
-            <a aria-label="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
+            <a href="${projectSTORE[i].github}" target="_blank"><p class="github-link">Github Link</p></a>
             <p class="project-tech-used">${renderTech()}</p>
           </span>
           <span class="accent-box">

@@ -355,7 +355,7 @@ svg:hover path {
 
 .tech {
   color: white;
-  background-color: #427D9F;
+  background-color: rgb(25, 48, 61);
   padding: 5px;
   margin: 1.5vw 2.5vw 1.5vw 0;
   border-radius: 10px;
