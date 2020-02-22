@@ -66,6 +66,19 @@ body {
   text-decoration: none;
 }
 
+.live-page-mobile-link {
+  color: white;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px grey;
+  background-color: #427D9F;
+  font-size: calc(16px + 2vw);
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .github-link:hover {
   text-shadow: 2px 2px rgb(0, 0, 0);
 }

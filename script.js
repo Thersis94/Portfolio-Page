@@ -110,7 +110,7 @@ function renderMobileProjects() {
     $(".all-projects").append(
       `<span class="project">
   <span class="accent-box">
-  <a aria-label="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
+  <a target="_blank" aria-label="link to ${projectSTORE[i].name} live page" href="${projectSTORE[i].liveLink}">
   <div class="content">
   <div class="content-overlay"></div>
     <img alt="Screen shot of ${projectSTORE[i].name} webpage" class="project-img" src="${projectSTORE[i].img}">
@@ -125,7 +125,8 @@ function renderMobileProjects() {
       <span class="project-text">
         <h2 class="project-name">${projectSTORE[i].name}</h2>
         <p class="project-description">${projectSTORE[i].description}</p>
-        <a aria-label="Link to the ${projectSTORE[i].name} Github repository." href="${projectSTORE[i].github}"><p class="github-link">Github Link</p></a>
+        <a target="_blank" href="${projectSTORE[i].liveLink}"><p class="live-page-mobile-link">Live Page</p></a>
+        <a target="_blank" href="${projectSTORE[i].github}"><p class="github-link">Github Link</p></a>
         <span class="project-tech-used">${renderTech()}</span>
       </span>
       </span>`)
