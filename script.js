@@ -1,5 +1,13 @@
 const projectSTORE = [
   {
+    name: "What that data do",
+    img: "",
+    liveLink: "https://wtdd-rust.now.sh/ ",
+    github: "https://github.com/clipqq/nw6-capstone-server",
+    description: "This is an app that I worked on with a group of other students. I took a lead role developing the database and the node.js RESTful api. ",
+    tech: ['Node', 'React', 'JS']
+  },
+  {
     name: "AI Audio",
     img: "https://raw.githubusercontent.com/Thersis94/Portfolio-Page/master/img/AIAudioScreenShot.PNG",
     liveLink: "https://aiaudio.now.sh",
