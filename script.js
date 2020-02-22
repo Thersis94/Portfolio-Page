@@ -1,11 +1,11 @@
 const projectSTORE = [
   {
-    name: "What that data do",
-    img: "",
+    name: "What That Data Do",
+    img: "https://raw.githubusercontent.com/Thersis94/Portfolio-Page/master/img/WTDD.PNG",
     liveLink: "https://wtdd-rust.now.sh/ ",
     github: "https://github.com/clipqq/nw6-capstone-server",
-    description: "This is an app that I worked on with a group of other students. I took a lead role developing the database and the node.js RESTful api. ",
-    tech: ['Node', 'React', 'JS']
+    description: "This is a data visualization app that I developed with a team of students. My role on the team was developing the database and node.js REFTful api.",
+    tech: ['NodeJS', 'React', 'CSS', 'HTML']
   },
   {
     name: "AI Audio",
@@ -20,7 +20,7 @@ const projectSTORE = [
     img: "https://raw.githubusercontent.com/Thersis94/Lazy-Liquor-Library/master/ScreenShot.PNG",
     liveLink: "https://thersis94.github.io/Lazy-Liquor-Library/",
     github: "https://github.com/Thersis94/Lazy-Liquor-Library",
-    description: "An app I created to search for interesting cocktails!",
+    description: "An app I created to search for interesting cocktails! It uses The CocktailDB api to generate results.",
     tech: ['HTML', 'CSS', 'JS'],
   },
   {
