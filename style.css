@@ -79,6 +79,10 @@ body {
   text-decoration: none;
 }
 
+.live-page-mobile-link:hover {
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
 .github-link:hover {
   text-shadow: 2px 2px rgb(0, 0, 0);
 }
