@@ -24,7 +24,8 @@ h1 {
 }
 
 .header-box {
-  background-color: #427D9F;
+  background-image: url(" ");
+  /* background-color: #427D9F; */
   display: flex;
   flex-direction: column;
 }
