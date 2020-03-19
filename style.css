@@ -5,9 +5,9 @@
 }
 
 header {
-  background-color: #427D9F;
   display: flex;
   flex-direction: column;
+ 
 }
 
 h1 {
@@ -24,10 +24,7 @@ h1 {
 }
 
 .header-box {
-  background-image: url("https://raw.githubusercontent.com/Thersis94/Portfolio-Page/master/img/LinkedInBackgroundImg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-color: #427D9F; */
+  background-color: #427D9F;
   display: flex;
   flex-direction: column;
 }
@@ -214,7 +211,7 @@ svg:hover path {
   text-align: center;
   font-size: calc(16px + 8vw);
   color: rgb(255, 255, 255);
-  text-shadow: black 5px 1px;
+  text-shadow: black 1px 1px;
   font-family: 'Fira Sans', sans-serif;
   margin: 2vw .2vw .5vw .2vw;
 }
@@ -227,7 +224,7 @@ svg:hover path {
 
 .header-info {
   color: white;
-  text-shadow: black 5px 1px;
+  text-shadow: black 1px 1px;
   font-size: calc(16px + 1vw);
   margin: .2vw;
   text-align: center;
@@ -410,7 +407,6 @@ svg:hover path {
 .icons8 {
   color: white;
 }
-
 
 /*--------------------------------------------------------------------------*/
 
